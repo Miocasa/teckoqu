@@ -125,6 +125,13 @@ export default function Page() {
                 >
                   Подписаться
                 </button>
+                <button
+                  onClick={() => window.open("https://drive.google.com/file/d/1603PyKSRhrlmqcbY-lu4qgCYPOFnm7YI/view?usp=sharing", "_blank")}
+                  className="mt-3 px-4 py-2 rounded-lg bg-amber-500 text-slate-900 font-semibold w-full sm:w-auto hover:bg-amber-400 transition"
+                >
+                  Скачать beta-версию приложения
+                </button>
+
               </form>
 
               <button
